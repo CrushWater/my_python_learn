@@ -1,0 +1,6 @@
+文件夹内右键使用open Git Bash here打开
+
+git：显示git信息
+git init：将此文件夹初始化为git仓库
+git status：查看仓库的状态
+git add +文件名：添加文件到仓库中，也可用于更新库中的该文件
