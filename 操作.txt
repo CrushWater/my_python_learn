@@ -9,7 +9,7 @@ git log：显示提交日志
 git branch：查看分支情况（*绿色的为当前位置）
 git branch +分支名：创建名为...的分支
 git checkout +分支名：切换到名为...的分支
-git checkout -+分支名 +分支名：创建并切换到...分支（即 git checkout -a a）（有时会报错）
+git checkout -b +分支名：创建并切换到...分支
 git merge +分支名：将...分支合并到主分支（不删除...分支）
 git branch -d（或 -D）+分支名：删除...分支（-d 在该分支未合并到主分支前无法删除，-D 可以强制删除）
 git tag：显示当前分支的标签
